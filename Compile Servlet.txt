@@ -1,0 +1,10 @@
+cd C:\Users\AdminUser\Documents\BCIT Share Out\8\COMP\tomcat\webapps\midp\WEB-INF\classes
+
+javac -classpath .;C:\Users\AdminUser\Desktop\tomcat\lib\servlet-api.jar HitServlet.java
+
+-----------
+
+cd C:\COMP7855Project\tomcat\webapps\midp\WEB-INF\classes
+javac -classpath .;C:\COMP7855Project\tomcat\lib\servlet-api.jar HitServlet.java
+
+javac -classpath .;C:\COMP7855Project\tomcat\lib\servlet-api.jar -classpath .;C:\COMP7855Project\tomcat\lib\ojdbc6.jar HitServlet.java

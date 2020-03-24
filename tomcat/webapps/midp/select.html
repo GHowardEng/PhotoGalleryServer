@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1 align=\"center\">Photo File</h1>
+
+<form action="uploads" method="post" enctype="multipart/form-data">
+Select File to Upload:<input type="file" name="fileName">
+<br>
+<br>
+<head><title> Photo Information </title></head>
+<body>
+<h1 align=\"center\">Enter Photo Information</h1>
+Date (YYYYMMDD):<input type="text" name="date" value="20000101">
+<br>
+Caption:<input type="text" name="caption" value="Caption">
+<br>
+Latitude:<input type="text" name="lat" value="49">
+<br>
+Longitude:<input type="text" name="long" value="120">
+<input type="hidden" name="source" value = "image">
+<input type="submit" value="Upload">
+</form>
+</body>
+</html>
